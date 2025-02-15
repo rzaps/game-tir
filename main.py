@@ -11,6 +11,7 @@ pygame.display.set_caption("Тир")
 icon = pygame.image.load("img/icon.png")
 pygame.display.set_icon(icon)
 
+
 target_img = pygame.image.load("img/target.png")
 target_width = 70
 target_height = 50
@@ -39,13 +40,5 @@ while running:
 
     screen.blit(target_img, (target_x, target_y))
     pygame.display.update()
-
-
-
-
-
-
-
-
 
 pygame.quit()
